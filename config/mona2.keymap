@@ -46,7 +46,7 @@
         Kakko_no_naka: Kakko_no_naka {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LS(KP_NUMBER_8) &kp RIGHT_PARENTHESIS &kp LEFT>;
+            bindings = <&kp ASTERISK &kp LEFT_PARENTHESIS &kp LEFT>;
             label = "KAKKO_NO_NAKA";
         };
     };
