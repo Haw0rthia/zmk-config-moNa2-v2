@@ -42,20 +42,6 @@
             bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
             label = "TO_LAYER_0";
         };
-
-        Kakko_no_naka: Kakko_no_naka {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp ASTERISK &kp LEFT_PARENTHESIS &kp LEFT>;
-            label = "KAKKO_NO_NAKA";
-        };
-
-        JP_Kakko_no_Naka: JP_Kakko_no_Naka {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACKET &kp BACKSLASH &kp LEFT>;
-            label = "JP_KAKKO_NO_NAKA";
-        };
     };
 
     behaviors {
@@ -101,16 +87,16 @@
 
         layer_6 {
             bindings = <
-&trans  &trans  &trans  &kp LESS_THAN      &kp GREATER_THAN                                &kp SLASH          &kp N7        &kp N8        &kp N9        &kp MINUS
-&trans  &trans  &trans  &kp ASTERISK       &kp LS(LEFT_PARENTHESIS)            &trans      &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON
-&trans  &trans  &trans  &kp RIGHT_BRACKET  &kp BACKSLASH             &trans    &trans      &kp N0             &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
-&trans  &trans  &trans  &trans             &trans                    &trans    &kp DELETE  &trans                                                       &kp ENTER
+&trans  &trans  &kp RIGHT_BRACKET  &kp BACKSLASH         &trans                        &kp SLASH          &kp N7        &kp N8        &kp N9        &kp MINUS
+&trans  &trans  &kp ASTRK          &kp LEFT_PARENTHESIS  &trans            &trans      &kp DOUBLE_QUOTES  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp COLON
+&trans  &trans  &kp LESS_THAN      &kp GREATER_THAN      &trans  &trans    &trans      &kp N0             &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD
+&trans  &trans  &trans             &trans                &trans  &trans    &kp DELETE  &trans                                                       &kp ENTER
             >;
         };
 
         layer_2 {
             bindings = <
-&kp ESCAPE               &kp LEFT_BRACKET  &kp POUND  &kp DOLLAR     &kp PERCENT                            &kp EQUAL  &kp CARET  &kp DOUBLE_QUOTES  &kp MINUS      &kp UNDERSCORE
+&kp ESCAPE               &kp LEFT_BRACKET  &kp POUND  &kp DOLLAR     &kp PERCENT                            &kp EQUAL  &kp CARET  &kp DOUBLE_QUOTES  &kp MINUS      &kp LS(MINUS)
 &kp LS(INTERNATIONAL_3)  &kp AMPERSAND     &kp AT     &kp SEMICOLON  &kp SINGLE_QUOTE             &trans    &mkp MB3   &mkp MB1   &mkp MB2           &kp SEMICOLON  &kp SINGLE_QUOTE
 &kp F1                   &kp F2            &kp F3     &kp F4         &kp F5            &kp F11    &kp F12   &kp F6     &kp F7     &kp F8             &kp F9         &kp F10
 &trans                   &trans            &trans     &trans         &trans            &trans     &mkp MB4  &mkp MB5                                                &trans
