@@ -6,7 +6,7 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define ZMK_POINTING_DEFAULT_SCRL_VAL 60
+#define ZMK_POINTING_DEFAULT_SCRL_VAL 100
 #define MOUSE 5
 #define SCROLL 6
 
@@ -59,7 +59,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
-            tap-ms = <25>;
+            tap-ms = <30>;
         };
 
         scroll_right_left: mouse_wheel_right_left {
@@ -67,7 +67,7 @@
             #sensor-binding-cells = <0>;
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
-            tap-ms = <25>;
+            tap-ms = <30>;
         };
     };
 
@@ -96,7 +96,7 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE               &kp LEFT_BRACKET  &kp POUND  &kp DOLLAR     &kp PERCENT                            &kp EQUAL  &kp CARET  &kp DOUBLE_QUOTES  &kp MINUS      &kp LS(INTERNATIONAL_1)
+&kp ESCAPE               &kp LEFT_BRACKET  &kp POUND  &kp DOLLAR     &kp PERCENT                            &kp EQUAL  &kp CARET  &kp DOUBLE_QUOTES  &kp MINUS      &kp LS(MINUS)
 &kp LS(INTERNATIONAL_3)  &kp AMPERSAND     &kp AT     &kp SEMICOLON  &kp SINGLE_QUOTE             &trans    &mkp MB3   &mkp MB1   &mkp MB2           &kp SEMICOLON  &kp SINGLE_QUOTE
 &kp F1                   &kp F2            &kp F3     &kp F4         &kp F5            &kp F11    &kp F12   &kp F6     &kp F7     &kp F8             &kp F9         &kp F10
 &trans                   &trans            &trans     &trans         &trans            &trans     &mkp MB4  &mkp MB5                                                &trans
