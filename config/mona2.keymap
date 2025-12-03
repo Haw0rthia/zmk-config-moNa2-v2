@@ -100,7 +100,7 @@
 
         layer_2 {
             bindings = <
-&kp ESCAPE               &kp LEFT_BRACKET  &kp POUND  &kp DOLLAR     &kp PERCENT                            &kp EQUAL  &kp CARET  &kp DOUBLE_QUOTES  &kp MINUS      &kp LS(MINUS)
+&kp ESCAPE               &kp LEFT_BRACKET  &kp POUND  &kp DOLLAR     &kp PERCENT                            &kp EQUAL  &kp CARET  &kp DOUBLE_QUOTES  &kp MINUS      &kp LS(INTERNATIONAL_1)
 &kp LS(INTERNATIONAL_3)  &kp AMPERSAND     &kp AT     &kp SEMICOLON  &kp SINGLE_QUOTE             &trans    &mkp MB3   &mkp MB1   &mkp MB2           &kp SEMICOLON  &kp SINGLE_QUOTE
 &kp F1                   &kp F2            &kp F3     &kp F4         &kp F5            &kp F11    &kp F12   &kp F6     &kp F7     &kp F8             &kp F9         &kp F10
 &trans                   &trans            &trans     &trans         &trans            &trans     &mkp MB4  &mkp MB5                                                &trans
@@ -122,10 +122,10 @@
 
         layer_4 {
             bindings = <
-&kp LS(INTERNATIONAL_1)  &kp LS(INTERNATIONAL_2)  &kp LS(INTERNATIONAL_4)  &kp LS(INTERNATIONAL_5)  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&trans                   &trans                   &trans                   &trans                   &trans            &trans       &trans        &trans        &trans        &trans        &trans
-&trans                   &trans                   &trans                   &trans                   &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
-&trans                   &trans                   &trans                   &trans                   &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
+&trans  &trans  &trans  &trans  &trans                         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
+&trans  &trans  &trans  &trans  &trans            &trans       &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
+&trans  &trans  &trans  &trans  &trans  &trans    &trans       &trans                                                  &bt BT_CLR_ALL
             >;
 
             sensor-bindings = <&scroll_up_down>;
