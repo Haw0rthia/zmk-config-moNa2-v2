@@ -60,8 +60,6 @@
             bindings = <&msc SCRL_DOWN>, <&msc SCRL_UP>;
 
             tap-ms = <25>;
-            delay-ms = <5>;
-            resolution = <1>;
         };
 
         scroll_right_left: mouse_wheel_right_left {
@@ -70,8 +68,6 @@
             bindings = <&msc SCRL_LEFT>, <&msc SCRL_RIGHT>;
 
             tap-ms = <25>;
-            delay-ms = <5>;
-            resolution = <1>;
         };
     };
 
