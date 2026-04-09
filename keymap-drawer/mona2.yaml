@@ -36,9 +36,9 @@ layers:
   - {t: /, h: '2'}
   - LCTRL
   - LEFT WIN
-  - F16
+  - LEFT ALT
   - {t: LANGUAGE 2, h: '1'}
-  - {t: ENTER, h: '2'}
+  - {t: SPACE, h: '2'}
   - {t: '&to_layer_0 LANGUAGE_1', h: '3'}
   - BACKSPACE
   - {t: INTERNATIONAL 4, h: default}
