@@ -164,7 +164,7 @@ layers:
   - PAGE DOWN
   - {t: ▽, type: trans}
   - Gui+L
-  - Ctl+Sft+DEL
+  - Ctl+Alt+DEL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
